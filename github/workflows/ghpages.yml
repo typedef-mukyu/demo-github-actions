@@ -1,5 +1,5 @@
 name: deploy-to-github-pages
-on: [push]
+on: [push, workflow_dispatch]
 
 permissions:
   contents: read
